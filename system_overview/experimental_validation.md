@@ -34,6 +34,19 @@ The experimental setup included:
 - External power supply for motor actuation
 
 The soft robotic end-effector structure and CMOS vision system were not fully integrated at this stage.
+## Physical Prototype and Control Validation
+
+![Physical Prototype](./physical_prototype.jpg)
+
+A physical prototype of the embedded control handle and actuation unit was fabricated
+using 3D-printed components and off-the-shelf electronics.
+
+Due to limited availability of Arduino Nano boards during testing, an Arduino Uno was
+used as a temporary substitute. The final design fully supports integration of an Arduino Nano
+within the enclosure as originally intended.
+
+Joystick-based control, encoder feedback, homing, and safety limit enforcement were
+successfully validated on the physical prototype.
 
 ---
 
