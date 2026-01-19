@@ -36,7 +36,7 @@ The experimental setup included:
 The soft robotic end-effector structure and CMOS vision system were not fully integrated at this stage.
 ## Physical Prototype and Control Validation
 
-![Physical Prototype](media/full_assembly_demo.png)
+![Physical Prototype](./full_assembly_demo.png)
 
 A physical prototype of the embedded control handle and actuation unit was fabricated
 using 3D-printed components and off-the-shelf electronics.
