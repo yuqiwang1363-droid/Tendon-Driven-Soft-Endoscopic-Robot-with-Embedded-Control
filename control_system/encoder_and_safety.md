@@ -63,6 +63,20 @@ The safety logic includes:
 - Reset and homing override through a dedicated button
 
 These constraints operate independently for the vertical and horizontal bending axes.
+### Software-Enforced Angular Limits
+
+To prevent mechanical over-bending and tendon over-tension,
+software safety limits are enforced on each bending axis.
+
+- Maximum bending angle: ±90°
+- Limits implemented in encoder count space
+- Motor commands are saturated once limits are reached
+
+The following video demonstrates the system reaching the angular limit
+and safely rejecting further joystick input in that direction.
+
+**Demonstration Video:**
+- `media/safety_limit_demo.mp4`
 
 ---
 
