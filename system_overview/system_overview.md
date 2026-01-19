@@ -3,6 +3,16 @@
 This document provides a **system-level technical overview** of the tendon-driven soft endoscopic robot,
 focusing on subsystem decomposition, signal flow, and control integration.
 For a general project introduction and motivation, please refer to the main `README.md`.
+## Overall Mechanical and Control Layout
+
+![Overall CAD Assembly](./full_system_cad.png)
+
+The figure above shows the integrated CAD assembly of the tendon-driven soft endoscopic robot.
+The embedded control board, motor-driven actuation unit, and mechanical transmission are
+co-located within a compact housing to enable handheld operation.
+
+The design ensures that all electronic components (microcontroller, motor drivers, and wiring)
+can be enclosed without interfering with tendon routing or bending motion.
 
 ---
 
