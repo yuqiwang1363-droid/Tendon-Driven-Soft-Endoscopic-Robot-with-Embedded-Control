@@ -43,6 +43,7 @@ A manual reset button returns the system to a neutral (home) configuration.
 This architecture prioritizes **simplicity, reliability, and transparency**, making it suitable for early-stage soft robotic prototyping.
 
 ---
+![Control Architecture](control_architecture.png)
 
 ## 4. Safety Constraints and Protection
 
