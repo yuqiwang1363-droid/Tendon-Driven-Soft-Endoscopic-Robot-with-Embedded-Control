@@ -67,6 +67,16 @@ The total tendon displacement depends on:
 - Lead screw pitch
 
 These parameters together define the conversion factor between encoder counts and tendon displacement.
+## Tendon-Driven Actuation Mechanism
+
+![Exploded View of Tendon Drive](./tendon_drive_exploded.png)
+
+The actuation unit employs a tendon-driven mechanism based on lead screws and spur gears.
+Two independent motor-gear assemblies are used to control bending in orthogonal planes
+(up/down and left/right).
+
+Rotational motion from the DC gear motors is converted into linear tendon displacement
+through the lead screw mechanism, enabling precise control of tendon tension and bending angle.
 
 ---
 
