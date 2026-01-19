@@ -41,6 +41,19 @@ The control logic follows a human-in-the-loop open-loop structure with encoder-b
 A manual reset button returns the system to a neutral (home) configuration.
 
 This architecture prioritizes **simplicity, reliability, and transparency**, making it suitable for early-stage soft robotic prototyping.
+### Reset and Homing Behavior
+
+The system includes a dedicated reset mechanism triggered by a physical button.
+When activated, both bending axes are commanded to return to their neutral (zero-angle)
+configuration regardless of the current joystick input.
+
+This behavior ensures:
+- Safe recovery from arbitrary configurations
+- Repeatable initialization before operation
+- User confidence during manual control
+
+**Demonstration Video:**
+- `media/reset_demo.mp4`
 
 ---
 ![Control Architecture](control_architecture.png)
